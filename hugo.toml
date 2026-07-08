@@ -1,0 +1,11 @@
+baseURL = "https://vanmetro.ca/"
+locale = "en-ca"
+title = "Vanmetro.ca"
+
+disableKinds = ["taxonomy", "term"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
